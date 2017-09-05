@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_indtr"
+                    android:layout_width="168dp"
+                    android:layout_height="168dp"
+                    android:layout_centerHorizontal="true"/>
+
+                <com.andexert.library.RippleView
+                    android:layout_width="155dp"
+                    android:layout_height="155dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_horizontal"
+                    android:visibility="visible"
+                    app:rv_centered="true"
+                    app:rv_rippleDuration="200"
+                    app:rv_type="simpleRipple">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/rounded_imgview"
+                        android:layout_width="155dp"
+                        android:layout_height="155dp"
+                        android:src="@drawable/user2"/>
+                </com.andexert.library.RippleView>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/vefry_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VERIFYING YOUR NUMBER.."
+                android:gravity="center"
+                android:textColor="#404040"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+                android:id="@+id/mob_no_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="9714062763"
+                android:textColor="#404040"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="40dp"-->
+            <!--android:orientation="vertical">-->
+
+
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/enter_otp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/textView_mobno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="3dp"
+                android:background="@null"
+                android:lines="2"
+                android:textSize="13dp"
+                android:textAllCaps="true"
+                android:gravity="center_horizontal"
+                android:hint="@string/otpmsg"
+                android:inputType="number"
+                android:maxLines="1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#000" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

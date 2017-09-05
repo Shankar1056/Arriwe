@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_name"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical">
+
+
+    <View
+        android:id="@+id/divider"
+        android:background="#1d80c7"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+    <TextView
+        android:id="@+id/textview_autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/transparent"
+        android:fontFamily="sans-serif"
+        android:maxLines="1"
+        android:layout_below="@+id/divider"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/gray"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="kaveri path"/>
+
+    <TextView
+        android:id="@+id/text_view_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"
+        android:background="@color/transparent"
+        android:fontFamily="sans-serif"
+        android:maxLines="1"
+        android:text="hhhh"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/light_gray"
+        android:textSize="14dp" />
+</RelativeLayout>

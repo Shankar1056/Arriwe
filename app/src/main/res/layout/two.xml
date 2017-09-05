@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="10"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_weight="4"
+        android:scaleType="centerInside"
+        android:src="@drawable/tag_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_weight="1"
+        android:text="TAGGING"
+        android:textColor="#404040"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_weight="3"
+        android:text="TAG someone your destination to let them know where are you, where you're going and how long you will take to reach."
+        android:textColor="#404040"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:textColor="#0070c0"
+        android:layout_weight="1"
+        android:text="NEXT"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.arriwe.utility.RoundedImageView
+            android:id="@+id/imageView_tagged"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/avi"
+            android:visibility="visible" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageView_tagged"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You are travlling"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/txt_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="travlling to Ajmer"
+                android:textColor="#1d80c7"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginRight="20dp"
+            android:indeterminate="false"
+            android:progress="10"
+            android:progressDrawable="@drawable/button_corner_prograss"
+            android:max="100"
+            android:layout_below="@+id/ll_name"
+            android:layout_toRightOf="@+id/imageView_tagged"
+            android:progressTint="#1d80c7"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

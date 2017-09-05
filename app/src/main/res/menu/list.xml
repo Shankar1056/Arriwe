@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/share" android:title="Share" android:icon="@drawable/add_to_fav"/>
+    <item android:id="@+id/upload" android:title="upload" android:icon="@drawable/user_new"/>
+    <item android:id="@+id/call" android:title="call" android:icon="@drawable/user_add"/>
+    <item android:id="@+id/call1" android:title="call" android:icon="@drawable/user_add"/>
+    <item android:id="@+id/call2" android:title="call" android:icon="@drawable/user_add"/>
+    <item android:id="@+id/call3" android:title="call" android:icon="@drawable/user_add"/>
+    <item android:id="@+id/call4" android:title="call" android:icon="@drawable/user_add"/>
+    <item android:id="@+id/call5" android:title="call" android:icon="@drawable/user_add"/>
+    <item android:id="@+id/call6" android:title="call" android:icon="@drawable/user_add"/>
+    <group android:id="@+id/helpgroup">
+        <item android:id="@+id/help" android:title="help" android:icon="@drawable/add_tip"/>
+    </group>
+</menu>

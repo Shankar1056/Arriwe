@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.arriwe.wayndr.SetUpProfile">
+
+
+    <ImageView
+        android:id="@+id/button_cancel_trup"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cross" />
+
+    <com.arriwe.utility.RoundedImageView
+        android:id="@+id/pickImageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/photo" />
+
+    <EditText
+        android:id="@+id/textView_mob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#D9D9D9"
+        android:focusable="false"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:lines="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gray"
+        android:textColorHint="#595959"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/textView_name_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_mob"
+        android:layout_alignStart="@+id/textView_mob"
+        android:layout_below="@+id/pickImageBtn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#D9D9D9"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/light_gray"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+    <Button
+        android:id="@+id/button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/transparent"
+        android:text="About"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/light_gray" />
+
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/transparent"
+            style="?android:attr/buttonStyleSmall"
+            android:text="Delete Account"
+            android:textColor="@color/light_gray" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_mob"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/rounded_rect"
+        android:text="Update"
+        android:textColor="#0070c0" />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,264 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    tools:context="com.arriwe.wayndr.WhereRUGoing"
+    android:id="@+id/rel_layout">
+
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoCompleteTextView"
+        android:layout_alignParentTop="true"
+        android:hint="@string/hint_going_where"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black_text"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black_text"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:layout_marginTop="50dp"
+        android:background="@color/transparent"
+        android:ellipsize="start"
+        android:maxLines="2"
+        android:dropDownWidth="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/btn_req_loc" />
+
+    <!--<Button-->
+        <!--style="?android:attr/buttonStyleSmall"-->
+        <!--android:layout_width="22dp"-->
+        <!--android:layout_height="22dp"-->
+        <!--android:id="@+id/button_search"-->
+        <!--android:alpha="0"-->
+        <!--android:layout_marginStart="10dp"-->
+        <!--android:background="@drawable/search_icon_gray"-->
+        <!--android:layout_alignBottom="@+id/autoCompleteTextView"-->
+        <!--android:layout_toEndOf="@+id/autoCompleteTextView" />-->
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/listView2"
+        android:background="@color/transparent"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/autoCompleteTextView"
+        android:layout_alignParentEnd="true"
+        android:dividerHeight="0dp"
+        android:divider="@null"
+        android:layout_above="@+id/relativeLayout4"
+        android:listSelector="@color/transparent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your favourite places"
+        android:textColor="@color/light_gray"
+        android:textSize="12sp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/textView3"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout" />
+
+    <RelativeLayout
+        android:layout_width="255dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/light_gray"
+        android:id="@+id/relativeLayout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignStart="@+id/autoCompleteTextView"
+        android:layout_below="@+id/autoCompleteTextView"
+        android:layout_alignEnd="@+id/autoCompleteTextView">
+    </RelativeLayout>
+
+    <!--<include layout="@layout/req_location"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_below="@+id/relativeLayout"-->
+        <!--android:id="@+id/include">-->
+
+    <!--</include>-->
+
+    <!--Bottom layout for activities and profile image-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout4">
+
+        <View
+            android:id="@+id/anchor"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/btn_title_skip_to_activities"
+            android:layout_toRightOf="@+id/anchor"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/button_skip_to_activities"
+            android:background="@color/text_color_sky_blue"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/skip_btn_top_border" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/anchor"
+            android:id="@+id/relativeLayout5">
+
+            <RelativeLayout
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/round_img_border"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true">
+
+                <com.arriwe.utility.RoundedImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/transparent"
+                    android:id="@+id/setting_imgview"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/skip_btn_top_border"
+            android:background="@color/text_color_sky_blue"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"></RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/no_fav_layout"
+        android:layout_marginTop="10dp"
+        android:layout_alignTop="@+id/listView2"
+        android:alpha="0"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="match_parent"
+            android:id="@+id/editText2"
+            android:layout_gravity="left|bottom"
+            android:textSize="16sp"
+            android:textColor="@color/light_gray"
+            android:layout_marginLeft="15dp"
+            android:text="You don't have any favourite places yet."/>
+    </FrameLayout>
+
+    <include layout="@layout/map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView3">
+
+    </include>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_fav_toggle"
+        android:textSize="12sp"
+        android:textColor="@color/text_color_sky_blue"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:id="@+id/button_add_to_fav"
+        android:layout_above="@+id/textView3"
+        android:layout_toEndOf="@+id/autoCompleteTextView" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/request_user_location"
+        android:textColor="@color/text_color_sky_blue"
+        android:textStyle="bold"
+        android:id="@+id/btn_req_loc"
+        android:layout_marginEnd="33dp"
+        android:layout_alignBottom="@+id/autoCompleteTextView"
+        android:layout_alignParentEnd="true" />
+
+    <!--Bottom layout to goto next screen or cancel-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/customborder"
+        android:layout_alignTop="@+id/relativeLayout4"
+        android:id="@+id/go_next_screen_layout"
+        android:visibility="invisible"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="CANCEL"
+            android:background="@color/transparent"
+            android:textColor="@color/gray"
+            android:id="@+id/button_cancel"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:background="@color/gray"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/button_cancel"
+            android:id="@+id/linearLayout9"></LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_sky_blue"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/button_cancel">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="CONFIRM"
+                android:background="@color/transparent"
+                android:textColor="@color/white"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/button_move_next"
+                android:layout_marginStart="52dp"
+                android:layout_centerVertical="true"
+                 />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

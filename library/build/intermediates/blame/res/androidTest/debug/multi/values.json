@@ -1,0 +1,967 @@
+[
+    {
+        "outputFile": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 44,
+                    "endOffset": 140
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 44,
+                        "endOffset": 140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 145,
+                    "endColumn": 47,
+                    "endOffset": 188
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 145,
+                        "endColumn": 47,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 193,
+                    "endColumn": 49,
+                    "endOffset": 238
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 193,
+                        "endColumn": 49,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 243,
+                    "endColumn": 49,
+                    "endOffset": 288
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 49,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 293,
+                    "endColumn": 62,
+                    "endOffset": 351
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 293,
+                        "endColumn": 62,
+                        "endOffset": 351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 356,
+                    "endColumn": 59,
+                    "endOffset": 411
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 356,
+                        "endColumn": 59,
+                        "endOffset": 411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 416,
+                    "endColumn": 60,
+                    "endOffset": 472
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 416,
+                        "endColumn": 60,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 477,
+                    "endColumn": 66,
+                    "endOffset": 539
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 477,
+                        "endColumn": 66,
+                        "endOffset": 539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 544,
+                    "endColumn": 62,
+                    "endOffset": 602
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 544,
+                        "endColumn": 62,
+                        "endOffset": 602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 607,
+                    "endColumn": 71,
+                    "endOffset": 674
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 607,
+                        "endColumn": 71,
+                        "endOffset": 674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 679,
+                    "endColumn": 71,
+                    "endOffset": 746
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 679,
+                        "endColumn": 71,
+                        "endOffset": 746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 751,
+                    "endColumn": 73,
+                    "endOffset": 820
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 751,
+                        "endColumn": 73,
+                        "endOffset": 820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 825,
+                    "endColumn": 73,
+                    "endOffset": 894
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 825,
+                        "endColumn": 73,
+                        "endOffset": 894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 899,
+                    "endColumn": 75,
+                    "endOffset": 970
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 899,
+                        "endColumn": 75,
+                        "endOffset": 970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 975,
+                    "endColumn": 72,
+                    "endOffset": 1043
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 975,
+                        "endColumn": 72,
+                        "endOffset": 1043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1048,
+                    "endColumn": 74,
+                    "endOffset": 1118
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1048,
+                        "endColumn": 74,
+                        "endOffset": 1118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1123,
+                    "endColumn": 70,
+                    "endOffset": 1189
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1123,
+                        "endColumn": 70,
+                        "endOffset": 1189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1194,
+                    "endColumn": 78,
+                    "endOffset": 1268
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1194,
+                        "endColumn": 78,
+                        "endOffset": 1268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1273,
+                    "endColumn": 61,
+                    "endOffset": 1330
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1273,
+                        "endColumn": 61,
+                        "endOffset": 1330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1335,
+                    "endColumn": 62,
+                    "endOffset": 1393
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1335,
+                        "endColumn": 62,
+                        "endOffset": 1393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1398,
+                    "endColumn": 77,
+                    "endOffset": 1471
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1398,
+                        "endColumn": 77,
+                        "endOffset": 1471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1476,
+                    "endColumn": 78,
+                    "endOffset": 1550
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1476,
+                        "endColumn": 78,
+                        "endOffset": 1550
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1555,
+                    "endColumn": 92,
+                    "endOffset": 1643
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1555,
+                        "endColumn": 92,
+                        "endOffset": 1643
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1648,
+                    "endColumn": 92,
+                    "endOffset": 1736
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1648,
+                        "endColumn": 92,
+                        "endOffset": 1736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1741,
+                    "endColumn": 107,
+                    "endOffset": 1844
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1741,
+                        "endColumn": 107,
+                        "endOffset": 1844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1849,
+                    "endColumn": 107,
+                    "endOffset": 1952
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1849,
+                        "endColumn": 107,
+                        "endOffset": 1952
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4262,
+                    "endColumn": 61,
+                    "endOffset": 4319
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 4262,
+                        "endColumn": 61,
+                        "endOffset": 4319
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4324,
+                    "endColumn": 67,
+                    "endOffset": 4387
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 4324,
+                        "endColumn": 67,
+                        "endOffset": 4387
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4392,
+                    "endColumn": 62,
+                    "endOffset": 4450
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 4392,
+                        "endColumn": 62,
+                        "endOffset": 4450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4455,
+                    "endColumn": 64,
+                    "endOffset": 4515
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 4455,
+                        "endColumn": 64,
+                        "endOffset": 4515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4520,
+                    "endColumn": 65,
+                    "endOffset": 4581
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 4520,
+                        "endColumn": 65,
+                        "endOffset": 4581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4586,
+                    "endColumn": 66,
+                    "endOffset": 4648
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 4586,
+                        "endColumn": 66,
+                        "endOffset": 4648
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4653,
+                    "endColumn": 77,
+                    "endOffset": 4726
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 4653,
+                        "endColumn": 77,
+                        "endOffset": 4726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4731,
+                    "endColumn": 89,
+                    "endOffset": 4816
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 4731,
+                        "endColumn": 89,
+                        "endOffset": 4816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4821,
+                    "endColumn": 72,
+                    "endOffset": 4889
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 4821,
+                        "endColumn": 72,
+                        "endOffset": 4889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4894,
+                    "endColumn": 68,
+                    "endOffset": 4958
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 4894,
+                        "endColumn": 68,
+                        "endOffset": 4958
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 4963,
+                    "endColumn": 64,
+                    "endOffset": 5023
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 4963,
+                        "endColumn": 64,
+                        "endOffset": 5023
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5028,
+                    "endColumn": 67,
+                    "endOffset": 5091
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 5028,
+                        "endColumn": 67,
+                        "endOffset": 5091
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5096,
+                    "endColumn": 65,
+                    "endOffset": 5157
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 5096,
+                        "endColumn": 65,
+                        "endOffset": 5157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5162,
+                    "endColumn": 68,
+                    "endOffset": 5226
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 5162,
+                        "endColumn": 68,
+                        "endOffset": 5226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 5231,
+                    "endColumn": 78,
+                    "endOffset": 5305
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 5231,
+                        "endColumn": 78,
+                        "endOffset": 5305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 5310,
+                    "endColumn": 69,
+                    "endOffset": 5375
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 5310,
+                        "endColumn": 69,
+                        "endOffset": 5375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 5380,
+                    "endColumn": 72,
+                    "endOffset": 5448
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 5380,
+                        "endColumn": 72,
+                        "endOffset": 5448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 5453,
+                    "endColumn": 73,
+                    "endOffset": 5522
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 5453,
+                        "endColumn": 73,
+                        "endOffset": 5522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 5527,
+                    "endColumn": 164,
+                    "endOffset": 5687
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 5527,
+                        "endColumn": 164,
+                        "endOffset": 5687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 5692,
+                    "endLine": 62,
+                    "endColumn": 12,
+                    "endOffset": 5887
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 5692,
+                        "endLine": 62,
+                        "endColumn": 12,
+                        "endOffset": 5887
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 5892,
+                    "endLine": 66,
+                    "endColumn": 12,
+                    "endOffset": 6140
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 5892,
+                        "endLine": 66,
+                        "endColumn": 12,
+                        "endOffset": 6140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 6145,
+                    "endLine": 68,
+                    "endColumn": 12,
+                    "endOffset": 6179
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 6145,
+                        "endLine": 68,
+                        "endColumn": 12,
+                        "endOffset": 6179
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 6184,
+                    "endLine": 72,
+                    "endColumn": 12,
+                    "endOffset": 6369
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 6184,
+                        "endLine": 72,
+                        "endColumn": 12,
+                        "endOffset": 6369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 6374,
+                    "endLine": 83,
+                    "endColumn": 12,
+                    "endOffset": 6971
+                },
+                "from": {
+                    "file": "/home/ravi/Desktop/Shankar/Code for test/1. profile completed/Arrive/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 6374,
+                        "endLine": 83,
+                        "endColumn": 12,
+                        "endOffset": 6971
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="border_thickness">3dp</dimen>
+    <dimen name="corner_thickness">5dp</dimen>
+    <dimen name="guideline_thickness">1px</dimen>
+
+    <dimen name="target_radius">24dp</dimen>
+    <dimen name="snap_radius">3dp</dimen>
+    <dimen name="corner_length">20dp</dimen>
+
+    <!--  Privacy Policy -->
+    <dimen name="space_left">30dp</dimen>
+    <dimen name="space_rigth">30dp</dimen>
+    <dimen name="space_top">30dp</dimen>
+    <dimen name="space_bottom">30dp</dimen>
+    <dimen name="space_bottem_policy">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="profile_view_size">30dp</dimen>
+</resources>

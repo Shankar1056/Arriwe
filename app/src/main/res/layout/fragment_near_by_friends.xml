@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame_layout"
+    android:background="@color/black"
+    tools:context="com.arriwe.wayndr.NearByFriendsFragment">
+
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/gridView_nearby_friends"
+        android:numColumns="3"
+        android:layout_below="@+id/linearLayout"
+        android:layout_gravity="center_horizontal|bottom"
+        android:listSelector="@color/transparent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView14"
+        android:layout_gravity="left|top" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView_cancel_nearby_activity_btn"
+        android:src="@drawable/cross"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignTop="@+id/textView_tagged"
+        android:layout_toEndOf="@+id/textView_travelling_loc"
+        android:layout_gravity="right|top" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="left" />
+
+    <!--Border layout-->
+</FrameLayout>

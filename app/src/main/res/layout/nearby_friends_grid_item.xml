@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/img_border"
+        android:background="@drawable/round_img_border_colored_nearby_frnds">
+
+        <com.arriwe.utility.RoundedImageView
+            android:layout_width="61dp"
+            android:layout_height="61dp"
+            android:background="@drawable/round"
+            android:layout_centerInParent="true"
+            android:id="@+id/imageButton_gridview"/>
+
+
+
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="61dp"-->
+            <!--android:layout_height="61dp"-->
+            <!--android:id="@+id/layout_hover"-->
+            <!--android:visibility="invisible"-->
+            <!--android:alpha="0.9"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="@android:color/transparent">-->
+
+
+            <!--<ImageView-->
+                <!--android:layout_width="61dp"-->
+                <!--android:layout_height="61dp"-->
+                <!--android:alpha="1"-->
+                <!--android:background="@drawable/round_tag_old"-->
+                <!--android:id="@+id/imageView"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_centerHorizontal="true" />-->
+
+
+            <!--<ImageView-->
+                <!--android:layout_width="61dp"-->
+                <!--android:layout_height="61dp"-->
+                <!--android:id="@+id/imageView_tag_travel"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_alignParentStart="true" />-->
+        <!--</RelativeLayout>-->
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:text="Text here"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textViewName_gridview_bear"
+        android:layout_below="@+id/img_border"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/img_border" />
+</RelativeLayout>

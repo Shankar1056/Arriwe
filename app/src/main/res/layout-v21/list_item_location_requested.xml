@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/layout_tagged"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rounded_rect_green"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/layout_travelling_with">
+
+        <com.arriwe.utility.RoundedImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/imageView_tagged"
+            android:background="@drawable/round"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textView_tagged"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black_text"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/imageView_tagged"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textView_strated_time"
+            android:alpha="0"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textStyle="normal"
+            android:textColor="@color/light_gray"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/button_decline_loc_req"
+            android:layout_marginStart="55dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@color/transparent"
+            android:textColor="@color/green_color"
+            android:text="SEND"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/button_share_loc"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/imageView_tagged" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@color/transparent"
+            android:text="Decline"
+            android:textColor="#7F7F7F"
+            android:id="@+id/button_decline_loc_req"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="2dp"
+            android:layout_alignStart="@+id/textView_tagged" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/vpi__background_holo_light"
+            android:id="@+id/linearLayout15"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/imageView_tagged"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView_req_for_loc"
+            android:layout_below="@+id/textView_tagged"
+            android:layout_alignStart="@+id/textView_tagged"
+            android:layout_alignEnd="@+id/linearLayout15" />
+
+    </RelativeLayout>
+</LinearLayout>

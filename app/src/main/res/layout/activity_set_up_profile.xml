@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.arriwe.wayndr.SetUpProfile">
+
+    <RelativeLayout
+        android:id="@+id/img_border"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/round_img_border_colored">
+
+        <com.arriwe.utility.RoundedImageView
+            android:id="@+id/pickImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/photo" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/textView_mob"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_border"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#D9D9D9"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:hint="@string/hint_name"
+        android:lines="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textColorHint="#595959"
+        android:textSize="16dp" />
+
+
+    <EditText
+        android:id="@+id/textViewNo"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_mob"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#D9D9D9"
+        android:elevation="5dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:hint="@string/hint_mob_no"
+        android:inputType="phone"
+        android:lines="1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textColorHint="#595959"
+        android:textSize="16dp" />
+
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewNo"
+        android:layout_alignStart="@+id/textViewNo"
+        android:layout_below="@+id/textViewNo"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_rect"
+        android:elevation="5dp"
+        android:text="SEND ME THE VERIFICATION CODE"
+        android:textColor="#0070c0" />
+
+</RelativeLayout>

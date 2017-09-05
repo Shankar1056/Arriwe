@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "66596031382",
+    "firebase_url": "https://arriweapp-eb8fd.firebaseio.com",
+    "project_id": "arriweapp-eb8fd",
+    "storage_bucket": "arriweapp-eb8fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66596031382:android:ab480df63ea4563f",
+        "android_client_info": {
+          "package_name": "com.sancsvision.arriwe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66596031382-hg1re7chf1r6dkud07k3o7kd145c9ggj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8ird_Kmx4u-V_rZfyG05TFg51Q7goOVQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

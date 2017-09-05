@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="155dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="3.3"
+            android:orientation="vertical">
+
+            <com.andexert.library.RippleView
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                android:visibility="visible"
+                app:rv_centered="true"
+                app:rv_rippleDuration="100"
+                app:rv_type="simpleRipple">
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:background="@drawable/layout_bg_black"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/pro_six"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="5dp"
+                    android:src="@drawable/user_new"/>
+
+            </com.andexert.library.RippleView>
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/textView_mob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="bottom|center_horizontal"
+            android:hint="YOUR NAME"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="18sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#000"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="THIS NAME WILL BE SHOWN \n TO ALL USERS IN ARRIWE"
+            android:textAllCaps="true"
+            android:textColor="#989898"
+            android:textSize="13dp"
+            android:textStyle="normal"/>
+
+
+        <EditText
+            android:id="@+id/textViewNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+
+            android:gravity="center"
+            android:hint="YOUR PHONE NUMBER"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:textColor="#404040"
+            android:textColorHint="#000"
+            android:textSize="18sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="OTP will be sent to this number to\n complete you signup process"
+            android:textAllCaps="true"
+            android:textColor="#989898"
+            android:textSize="13dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/next_six"
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_rect"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="go"
+            android:text="VERIFY YOUR NUMBER"
+            android:textColor="#0070c0"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</LinearLayout>

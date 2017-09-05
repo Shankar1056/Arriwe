@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:id="@+id/rr1"
+                android:visibility="visible"
+                android:layout_width="220dp"
+                android:layout_height="220dp">
+                <ImageView
+                    android:background="@drawable/layout_bg"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="220dp"
+                    android:layout_height="220dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="200dp"
+                    android:id="@+id/pro_one"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/avi"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="200dp">
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/rr2"
+                android:visibility="gone"
+                android:layout_marginTop="40dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp">
+                <ImageView
+                    android:background="@drawable/layout_bg"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="220dp"
+                    android:layout_height="220dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:src="@drawable/tag_contacts"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/pro_two"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/tagSomeOne"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="TAG someone your destination to"
+                        android:textColor="#404040"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:layout_margin="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="let them know where are you,"
+                        android:textColor="#404040"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:layout_margin="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="where you're going and how long"
+                        android:textColor="#404040"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:layout_margin="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text=" you will take to reach."
+                        android:textColor="#404040"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:layout_margin="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:textColor="#0070c0"
+                    android:text="NEXT"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="20dp"
+                    android:gravity="center_horizontal|bottom"
+                    android:id="@+id/next_two"
+                    android:layout_gravity="bottom"
+                    android:onClick="go"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tagging"
+                android:text="TAGGING"
+                android:textColor="#404040"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/tap_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="TAP ON THE"
+                    android:id="@+id/tap1"
+                    android:textColor="#404040"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="PHOTO TO TAG"
+                    android:id="@+id/tap2"
+                    android:textSize="20sp"
+                    android:textColor="#404040"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

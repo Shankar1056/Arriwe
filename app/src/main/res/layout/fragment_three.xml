@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_weight="10"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#F5F5F5"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:background="#F5F5F5">
+        <RelativeLayout
+            android:background="@drawable/button_corner"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:visibility="visible"
+
+            android:id="@+id/rr_map"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pro_frag_three"
+                android:layout_width="40dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="visible"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/avi"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="Honey wants you to come to"
+                android:id="@+id/txt1_frag_three"
+                android:layout_marginTop="20dp"
+                android:textSize="12sp"
+                android:background="@color/white"
+                android:textColor="#484848"
+                android:layout_toRightOf="@+id/pro_frag_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Skyye Bar , UB City, Banglore."
+                android:layout_below="@id/txt1_frag_three"
+                android:id="@+id/txt2_frag_three"
+                android:layout_marginTop="2dp"
+                android:textSize="12sp"
+                android:textColor="#1e80c7"
+                android:layout_toRightOf="@+id/pro_frag_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="20dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/cross"
+                android:visibility="visible"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/cross"
+                android:layout_height="20dp" />
+            <TextView
+                android:text="3 min ago"
+                android:id="@+id/min"
+                android:padding="20dp"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="ACCEPT"
+                android:textStyle="bold"
+                android:id="@+id/accept"
+                android:padding="20dp"
+                android:textSize="13sp"
+                android:textColor="#06b154"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:id="@+id/map_container"
+                android:layout_below="@id/pro_frag_three"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_above="@id/accept"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/curtain"
+            android:visibility="invisible"
+            android:background="@drawable/map_img"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+</LinearLayout>

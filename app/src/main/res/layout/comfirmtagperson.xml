@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_corner"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5">
+
+            <RelativeLayout
+                android:id="@+id/rr_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="20dp"
+                android:visibility="visible">
+
+
+                <RelativeLayout
+                    android:id="@+id/name_rr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <com.arriwe.utility.RoundedImageView
+                        android:id="@+id/imageView_tagged"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/avi"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/imageView_tagged">
+
+                        <TextView
+                            android:id="@+id/textView_tagged"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Honey wants you to come to"
+                            android:textSize="12sp"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:id="@+id/textView_travelling_loc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Skyye Bar , UB City, Banglore."
+                            android:maxLines="1"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/cross"
+                        android:visibility="invisible"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="20dp"/>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView_tagged"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/vpi__background_holo_light"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:weightSum="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="@drawable/rounded_rect_accept"
+                android:text="Accept"
+                android:textSize="12sp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/button_accept"
+                android:textColor="@color/green_color"
+                android:layout_weight="1"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="@drawable/rounded_rect_decline"
+                android:text="Decline"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:textColor="#7F7F7F"
+                android:id="@+id/button_decline"
+                android:layout_alignTop="@+id/button_accept"
+                android:layout_toEndOf="@+id/button_accept"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/textView_strated_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:text="43 Min"
+                android:textColor="#a6a6a6"
+                android:textSize="10sp"
+                android:layout_weight="0.5"
+                android:layout_marginStart="20dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+</LinearLayout>

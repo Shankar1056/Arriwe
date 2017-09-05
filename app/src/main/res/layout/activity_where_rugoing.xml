@@ -1,0 +1,263 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.arriwe.wayndr.WhereRUGoing">
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toStartOf="@+id/btn_req_loc"
+        android:background="@color/transparent"
+        android:dropDownWidth="match_parent"
+        android:ellipsize="start"
+        android:fontFamily="sans-serif"
+        android:hint="@string/hint_going_where"
+        android:maxLines="2"
+        android:paddingLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black_text"
+        android:textColorHint="@color/black_text"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!--<Button-->
+    <!--style="?android:attr/buttonStyleSmall"-->
+    <!--android:layout_width="22dp"-->
+    <!--android:layout_height="22dp"-->
+    <!--android:id="@+id/button_search"-->
+    <!--android:alpha="0"-->
+    <!--android:layout_marginStart="10dp"-->
+    <!--android:background="@drawable/search_icon_gray"-->
+    <!--android:layout_alignBottom="@+id/autoCompleteTextView"-->
+    <!--android:layout_toEndOf="@+id/autoCompleteTextView" />-->
+
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_above="@+id/relativeLayout4"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/autoCompleteTextView"
+        android:layout_marginTop="80dp"
+        android:background="@color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@color/transparent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="55dp"
+        android:text="Your favourite places"
+        android:textColor="@color/light_gray"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="255dp"
+        android:layout_height="1dp"
+        android:layout_alignEnd="@+id/autoCompleteTextView"
+        android:layout_alignStart="@+id/autoCompleteTextView"
+        android:layout_below="@+id/autoCompleteTextView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/light_gray"></RelativeLayout>
+
+    <!--<include layout="@layout/req_location"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_below="@+id/relativeLayout"-->
+    <!--android:id="@+id/include">-->
+
+    <!--</include>-->
+
+    <!--Bottom layout for activities and profile image-->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <View
+            android:id="@+id/anchor"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:id="@+id/button_skip_to_activities"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/skip_btn_top_border"
+            android:layout_toRightOf="@+id/anchor"
+            android:background="@color/text_color_sky_blue"
+            android:text="@string/btn_title_skip_to_activities"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/anchor">
+
+            <RelativeLayout
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/round_img_border">
+
+                <com.arriwe.utility.RoundedImageView
+                    android:id="@+id/setting_imgview"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/skip_btn_top_border"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/text_color_sky_blue" />
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/no_fav_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/listView2"
+        android:layout_marginTop="10dp"
+        android:alpha="0">
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="336dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="15dp"
+            android:text="You don't have any favourite places yet."
+            android:textColor="@color/light_gray"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <include
+        layout="@layout/map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView3">
+
+    </include>
+
+    <Button
+        android:id="@+id/button_add_to_fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_toEndOf="@+id/autoCompleteTextView"
+        android:background="@drawable/btn_fav_toggle"
+        android:textColor="@color/text_color_sky_blue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_req_loc"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/autoCompleteTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/request_user_location"
+        android:textColor="@color/text_color_sky_blue"
+        android:textStyle="bold" />
+
+    <!--Bottom layout to goto next screen or cancel-->
+
+    <RelativeLayout
+        android:id="@+id/go_next_screen_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/relativeLayout4"
+        android:background="@drawable/customborder"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:text="CANCEL"
+            android:textColor="@color/gray" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/button_cancel"
+            android:background="@color/gray"
+            android:orientation="vertical" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/button_cancel"
+            android:background="@color/text_color_sky_blue">
+
+            <Button
+                android:id="@+id/button_move_next"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginStart="52dp"
+                android:background="@drawable/back_arrow" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

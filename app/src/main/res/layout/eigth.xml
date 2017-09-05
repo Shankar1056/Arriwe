@@ -1,0 +1,46 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE"
+        android:layout_above="@+id/tabs"/>
+    <com.arriwe.wayndr.CustomTabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        app:tabIndicatorHeight="3dp"
+        android:background="@color/white"
+        android:layout_marginBottom="0.5dp"
+        app:tabTextColor="#a6a6a6"
+        app:tabSelectedTextColor="#0070c0"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabIndicatorColor="#0070c0"
+        app:tabGravity="fill" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/view"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+    <View
+        android:background="#000000"
+        android:layout_above="@id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
