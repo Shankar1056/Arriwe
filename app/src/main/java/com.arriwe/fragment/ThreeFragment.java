@@ -171,8 +171,14 @@ public class ThreeFragment extends Fragment implements SwipeRefreshLayout.OnRefr
         autoCompleteTextView.setText(name);
 
        proressbar = (ProgressBar)view.findViewById(R.id.proressbar);
-        if (childArr!=null && childArr.length()>0)
+        try {
+            if ((childArr != null && childArr.length() > 0) || activityArrayList.size() > 0) {
+                proressbar.setVisibility(View.GONE);
+            }
+        }
+        catch (Exception e)
         {
+            e.printStackTrace();
             proressbar.setVisibility(View.GONE);
         }
 
@@ -217,6 +223,11 @@ public class ThreeFragment extends Fragment implements SwipeRefreshLayout.OnRefr
         listView.setAdapter(listAdapter);
 
         expandable_list_swipe.setOnRefreshListener(this);
+        
+        if (activityArrayList!=null && activityArrayList.size()>0)
+        {
+            initializeListView(activityArrayList.get(0), true);
+        }
 
 
         return view;
@@ -228,8 +239,14 @@ public class ThreeFragment extends Fragment implements SwipeRefreshLayout.OnRefr
         isscreenvisible = isVisibleToUser;
         if (isscreenvisible) {
             try {
-                if (activityArrayList.size()==0)
-                getUserActivities(true);
+                if (activityArrayList.size()==0) {
+                    getUserActivities(true);
+                }
+                else
+                {
+                   // proressbar.setVisibility(View.GONE);
+                    
+                }
             } catch (JSONException e) {
                 e.printStackTrace();
             } catch (UnsupportedEncodingException e) {
@@ -354,21 +371,10 @@ public class ThreeFragment extends Fragment implements SwipeRefreshLayout.OnRefr
     void initializeListView(JSONObject jsonObject, boolean first_time) {
 
         int pos = 0;
-
-
-
-       /* if (isloadedfirsttime)
-        {
-            listAdapter.notifyDataSetChanged();
-        }
-        else {
-            listAdapter = new ListAdapter(eightContext, jsonObject);
-            listView.setAdapter(listAdapter);
-            listView.setSelection(pos);
-            isloadedfirsttime = true;
-        }
-*/
-
+    
+    
+        
+     
 
         try {
             hashMap = getRowDetailsASection(jsonObject);

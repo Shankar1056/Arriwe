@@ -54,6 +54,6 @@ public class GCMListener extends GcmListenerService {
     }
     public static int getNotificationIcon() {
         boolean useWhiteIcon = (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP);
-        return useWhiteIcon ? R.mipmap.launcher : R.mipmap.launcher;
+        return useWhiteIcon ? R.mipmap.launcher : R.mipmap.ic_launcher;
     }
 }
