@@ -70,7 +70,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 		String TrueOrFlase = remoteMessage.getData().get("AnotherActivity");
 		bitmap = getBitmapfromUrl(imageUri);
 		
-	//	sendNotification(message, bitmap, TrueOrFlase);
+		sendNotification(message, bitmap, TrueOrFlase);
 	}
 	// [END receive_message]
 	

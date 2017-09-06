@@ -938,6 +938,7 @@ public class Settings extends Activity implements View.OnClickListener {
         deactiveEdit();
         Intent intent = new Intent(Settings.this, Eight.class);
         intent.putExtra("setfragment", "three");
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         finish();
         // overridePendingTransition(R.anim.slide_down, R.anim.stay);
